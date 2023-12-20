@@ -9,6 +9,7 @@
 
 - [About](#about)
 - [Features](#features)
+- [Languages](#languages)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -26,6 +27,20 @@ The E-Commerce CodeBook is a comprehensive and customizable E-Commerce platform 
 - **Order Processing:** Streamline the order fulfillment process with features for tracking and managing customer orders.
 - **User Authentication:** Secure user accounts with a robust authentication system for customer accounts and order history.
 - **Payment Integration:** Seamlessly integrate popular payment gateways for a smooth and secure checkout process.
+
+## Languages
+
+The project is primarily built using the following languages:
+
+- **JavaScript (Node.js):** The server-side language for building the backend.
+- **React (JavaScript):** The front-end library for building user interfaces.
+  1. State and props
+  2. Event handling
+  3. Built-in hooks (e.g. useState, useEffect, useCallback, useRef)
+  4. Working with forms, validations, and handling form data.
+  5. Client-side routing with React Router
+  6. Work with multiple API and handle data for projects
+- **Tailwind CSS:** A utility-first CSS framework for styling the application.
 
 ## Getting Started
 
@@ -72,7 +87,7 @@ Follow these steps to set up and run the E-Commerce CodeBook locally:
 
 # ProjectLink
 
-- [npm](https://ecommerce-codebook.netlify.app/): Application Link
+- [E-Commerce CodeBook](https://ecommerce-codebook.netlify.app/): Application Link
 
 # Refrence
 
@@ -80,3 +95,5 @@ Follow these steps to set up and run the E-Commerce CodeBook locally:
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto): The Roboto font family used for text elements.
 - [React Toastify](https://www.npmjs.com/package/react-toastify): A notification library used to display user feedback messages.
 - [json server auth](https://www.npmjs.com/package/json-server-auth): JSON server fake RESTAPI prototyping
+
+JSX and components
