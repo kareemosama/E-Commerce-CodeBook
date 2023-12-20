@@ -1,12 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # E-Commerce CodeBook
 
 ![Main Page](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/MainPage.png)
 ![ProductListWithFilter](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/ProductListWithFilter.png)
-![ProductDetails](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/Product Details.png)
+![ProductDetails](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/ProductDetails.png)
 ![Register](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/Register.png)
 
 ## Table of Contents
@@ -16,7 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Reference](#reference)
+- [Project Link](#Project-Link)
+- [Refrence](#Refrence)
 
 ## About
 
@@ -41,12 +38,6 @@ Before you begin working with the E-Commerce CodeBook, ensure that you have the 
 - [Node.js](https://nodejs.org/en/): The JavaScript runtime to execute the application.
 - [npm](https://www.npmjs.com/): The Node Package Manager for managing project dependencies.
 
-# Used Sites
-
-- [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework used for styling the application.
-- [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto): The Roboto font family used for text elements.
-- [React Toastify](https://www.npmjs.com/package/react-toastify): A notification library used to display user feedback messages.
-
 # Installation
 
 Follow these steps to set up and run the E-Commerce CodeBook locally:
@@ -61,13 +52,31 @@ Follow these steps to set up and run the E-Commerce CodeBook locally:
 
 2. **Install Dependencies:**
 
+   ```bash
    npm install
+   ```
 
 3. **Run the JSON Server:**
 
+   ```bash
    json-server data/db.json -m ./node_modules/json-server-auth -r data/route.json --port 8000
+   ```
 
 4. **Run the Application:**
 
    Create a .env file in the root of the project and set the necessary environment variables. You can use the .env.example file as a template.
+
+   ```bash
    npm start
+   ```
+
+# ProjectLink
+
+- [npm](https://ecommerce-codebook.netlify.app/): Application Link
+
+# Refrence
+
+- [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework used for styling the application.
+- [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto): The Roboto font family used for text elements.
+- [React Toastify](https://www.npmjs.com/package/react-toastify): A notification library used to display user feedback messages.
+- [json server auth](https://www.npmjs.com/package/json-server-auth): JSON server fake RESTAPI prototyping
