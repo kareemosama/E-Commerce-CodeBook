@@ -34,12 +34,13 @@ The project is primarily built using the following languages:
 
 - **JavaScript (Node.js):** The server-side language for building the backend.
 - **React (JavaScript):** The front-end library for building user interfaces.
-  1. State and props
-  2. Event handling
-  3. Built-in hooks (e.g. useState, useEffect, useCallback, useRef)
-  4. Working with forms, validations, and handling form data.
-  5. Client-side routing with React Router
-  6. Work with multiple API and handle data for projects
+  1.  JSX and components
+  2.  State and props
+  3.  Event handling
+  4.  Built-in hooks (e.g. useState, useEffect, useCallback, useRef)
+  5.  Working with forms, validations, and handling form data.
+  6.  Client-side routing with React Router
+  7.  Work with multiple API and handle data for projects
 - **Tailwind CSS:** A utility-first CSS framework for styling the application.
 
 ## Getting Started
@@ -95,5 +96,3 @@ Follow these steps to set up and run the E-Commerce CodeBook locally:
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto): The Roboto font family used for text elements.
 - [React Toastify](https://www.npmjs.com/package/react-toastify): A notification library used to display user feedback messages.
 - [json server auth](https://www.npmjs.com/package/json-server-auth): JSON server fake RESTAPI prototyping
-
-JSX and components
