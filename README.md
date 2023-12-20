@@ -1,71 +1,73 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![Project Logo or Screenshot](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/MainPage.png)
 
-## Available Scripts
+# E-Commerce CodeBook
 
-In the project directory, you can run:
+![Main Page](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/MainPage.png)
+![ProductListWithFilter](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/ProductListWithFilter.png)
+![ProductDetails](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/Product Details.png)
+![Register](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/Register.png)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Reference](#reference)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About
 
-### `npm test`
+The E-Commerce CodeBook is a comprehensive and customizable E-Commerce platform designed to empower businesses to establish and manage their online Book stores efficiently. With a focus on flexibility and extensibility, this codebase serves as a foundation for creating a feature-rich E-Commerce application tailored to your unique requirements.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Customizable Design:** Tailor the look and feel of your online store to match your brand identity.
+- **Product Management:** Easily manage your product catalog, including adding, updating, and removing products.
+- **Order Processing:** Streamline the order fulfillment process with features for tracking and managing customer orders.
+- **User Authentication:** Secure user accounts with a robust authentication system for customer accounts and order history.
+- **Payment Integration:** Seamlessly integrate popular payment gateways for a smooth and secure checkout process.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with E-Commerce CodeBook, follow the [Getting Started](#getting-started) section in this README to set up your development environment and install the necessary dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Prerequisites
 
-### `npm run eject`
+Before you begin working with the E-Commerce CodeBook, ensure that you have the following software installed on your machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js](https://nodejs.org/en/): The JavaScript runtime to execute the application.
+- [npm](https://www.npmjs.com/): The Node Package Manager for managing project dependencies.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Used Sites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework used for styling the application.
+- [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto): The Roboto font family used for text elements.
+- [React Toastify](https://www.npmjs.com/package/react-toastify): A notification library used to display user feedback messages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Installation
 
-## Learn More
+Follow these steps to set up and run the E-Commerce CodeBook locally:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Clone the Repository:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/kareemosama/E-Commerce-CodeBook.git
+   cd E-Commerce-CodeBook
 
-### Code Splitting
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Install Dependencies:**
 
-### Analyzing the Bundle Size
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Run the JSON Server:**
 
-### Making a Progressive Web App
+   json-server data/db.json -m ./node_modules/json-server-auth -r data/route.json --port 8000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. **Run the Application:**
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Create a .env file in the root of the project and set the necessary environment variables. You can use the .env.example file as a template.
+   npm start
