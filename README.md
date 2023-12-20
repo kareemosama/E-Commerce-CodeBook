@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Logo or Screenshot](https://github.com/kareemosama/E-Commerce-CodeBook/blob/main/public/assets/GitImages/MainPage.png)
 
 ## Available Scripts
 
