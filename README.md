@@ -13,8 +13,8 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Project Link](#Project-Link)
-- [Refrence](#Refrence)
+- [Project Link](#ProjectLink)
+- [Reference](#Reference)
 
 ## About
 
@@ -90,7 +90,7 @@ Follow these steps to set up and run the E-Commerce CodeBook locally:
 
 - [E-Commerce CodeBook](https://ecommerce-codebook.netlify.app/): Application Link
 
-# Refrence
+# Reference
 
 - [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework used for styling the application.
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto): The Roboto font family used for text elements.
